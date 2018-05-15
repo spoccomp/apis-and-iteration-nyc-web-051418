@@ -8,7 +8,7 @@ def get_character_movies_from_api(character)
   all_characters = RestClient.get('http://www.swapi.co/api/people/')
   character_hash = JSON.parse(all_characters)
 # character_hash["results"].map{|film| film["films"]}
-# }
+#   }
 #film=nil
 #character_hash["results"].each do |info,data|
 #  if character_hash["results"][info]["name"].include?(character)
